@@ -1,21 +1,29 @@
-.conteiner-sections
-{
-    display: inline-flex;
-    color: aqua;
-}
-
-.conteiner-artigos
+.container-sections
 {
     display: flex;
     flex-direction: column;
+    color: rgb(255, 255, 255);
     border-style: solid;
     border-color: black;
+}
 
+main > header {
+    display: block;
+}
+.container-artigos
+{   
+    display: flex;
+    padding: 10px;
+    background-color: aqua;
 }
 body
 {
-    background-color:rgb(23, 172, 209)
+    background-color:rgb(23, 172, 209);
     
+}
+body>header
+{
+    color: brown;
 }
 .container-artigos > article 
 {
@@ -24,6 +32,6 @@ body
 }
 #Harley
 {
-    height: 50%;
+    height: 100%;
     width: 50%;
 }
