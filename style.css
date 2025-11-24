@@ -1,6 +1,6 @@
 .conteiner-sections
 {
-    display: flex;
+    display: inline-flex;
     color: aqua;
 }
 
@@ -8,15 +8,22 @@
 {
     display: flex;
     flex-direction: column;
+    border-style: solid;
+    border-color: black;
 
-    
 }
 body
 {
-    background-colorblack;
+    background-color:rgb(23, 172, 209)
+    
 }
-image
+.container-artigos > article 
 {
-    height: 100px;
-    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+#Harley
+{
+    height: 50%;
+    width: 50%;
 }
