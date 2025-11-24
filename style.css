@@ -1,0 +1,22 @@
+.conteiner-sections
+{
+    display: flex;
+    color: aqua;
+}
+
+.conteiner-artigos
+{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+body
+{
+    background-colorblack;
+}
+image
+{
+    height: 100px;
+    width: 100%;
+}
