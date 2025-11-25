@@ -1,3 +1,6 @@
+
+/*COR, BORDA, DISPOSIÇÃO DO TEXTO E ESTILO DAS SESSÕES DOS ARTIGOS
+ATUAIS*/
 .container-sections
 {
     display: flex;
@@ -8,33 +11,33 @@
     padding: 20px;
 }
 
+/*REMOVER MARCADORES DA LISTA*/
 ul
 {
     list-style-type:none;
 }
 
-main > header {
-    display: block;
-}
+/*PERMITIR QUE UM ARTIGO FIQUE AO LADO DO OUTRO*/
 .container-artigos
 {   
     display: flex;
     
 }
+
+/*COR DE FUNDO DA PÁGINA*/
 body
 {
     background-color:rgb(153, 227, 246);
     
 }
+
+/*COR DO HEARDER (TÍTULO) PRINCIPAL - NESTE CASO: HARLEY QUINN*/
 body>header
 {
     color: brown;
 }
-.container-artigos > article 
-{
-    margin-bottom: 2rem;
-    
-}
+
+/*TAMANHO DA IMAGEM*/
 #Harley
 {
     height: 100%;
