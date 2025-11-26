@@ -9,6 +9,7 @@ ATUAIS*/
 .container-sections
 {
     flex-wrap: wrap;
+    gap: 20px;
     flex-direction: row; 
     display: flex;
     border-style: solid;
