@@ -14,6 +14,28 @@ body>header
 .container-artigos
 {   
     display:flex;
+}
+.container-sections
+{
+    display: flex;
+    border-style: solid;
+}
+.container-sections>header
+{
+
+    width: 100%;
+    flex-basis: 100%;
+    display: block;
+}
+.container-sections
+{
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row; 
+    display: flex;
     border-style: solid;
     border-color: black;
+    border: 2px solid black;
+    padding: 20px;
+    width: fit-content;
 }
