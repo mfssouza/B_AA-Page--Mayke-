@@ -9,7 +9,7 @@ body
 }
 body>header
 {
-    color: brown;
+    color: rgb(255, 255, 255);
 }
 .container-artigos
 {   
@@ -22,6 +22,7 @@ body>header
 }
 .container-sections>header
 {
+    
 
     width: 100%;
     flex-basis: 100%;
@@ -29,6 +30,7 @@ body>header
 }
 .container-sections
 {
+    
     flex-wrap: wrap;
     gap: 20px;
     flex-direction: row; 
@@ -38,4 +40,18 @@ body>header
     border: 2px solid black;
     padding: 20px;
     width: fit-content;
+}
+body
+{
+    background-image: url('/IMAGENS/GCPD_1.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+    
+}
+img
+{
+    opacity: 0.5;
 }
